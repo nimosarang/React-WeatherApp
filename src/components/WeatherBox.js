@@ -11,7 +11,7 @@ const WeatherBox = ({ data }) => {
   return (
     <div className="weather-box">
       <img src={iconUrl} alt="Weather icon" />
-      <p className="temperature">{temp}°C</p>
+      <p className="temperature">🌡️{temp}°C</p>
       <p className="description">{description}</p>
     </div>
   );

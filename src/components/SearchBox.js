@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaRocketchat, FaSearchengin } from "react-icons/fa6";
 
 const SearchBox = ({ city, handleSearch }) => {
   const [value, setValue] = useState("");
@@ -15,13 +16,16 @@ const SearchBox = ({ city, handleSearch }) => {
         handleSearch(value);
       }}
     >
+      <FaRocketchat />
       <input
         type="text"
-        placeholder="도시 이름을 입력하세요"
+        placeholder="Which City ?"
         value={value}
         onChange={handleChange}
-      />
-      <button type="submit">검색</button>
+      ></input>
+      <button type="submit">
+        <FaSearchengin />
+      </button>
     </form>
   );
 };
