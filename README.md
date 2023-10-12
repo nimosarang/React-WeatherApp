@@ -1,4 +1,4 @@
-React Weather App
+<h2>React Weather App</h2>
 
 **React Weather App**은 React를 사용하여 구현된 간단한 날씨 애플리케이션입니다. 
 >이 애플리케이션을 사용하여 특정 도시의 날씨 정보를 확인할 수 있습니다.
