@@ -10,7 +10,7 @@ const App = () => {
   const [data, setData] = useState("");
 
   const handleSearch = async (city) => {
-    const API_KEY = "b86a02cd2a7b9983d569874adc939529";
+    const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
     try {
       const response = await fetch(
